@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Citizen Incident Reporting Tool</title>
+    <link href="/static/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Star Citizen Incident Reporting Tool</h1>
+    <div id="report-section">
+        <form id="reportForm">
+            <label for="playerName">Player Name:</label>
+            <input type="text" id="playerName" name="player_name" required><br>
+            <label for="typeOfIncident">Type of Incident:</label>
+            <select id="typeOfIncident" name="type_of_incident" required></select><br>
+            <label for="subcategory">Subcategory:</label>
+            <select id="subcategory" name="subcategory" required></select><br>
+            <button type="button" onclick="submitIncident()">Submit</button>
+        </form>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
