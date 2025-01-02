@@ -1,9 +1,14 @@
-# Star Citizen Incident Reporting Tool
+# Star Citizen Intel Tool
 
-A tool for logging and querying incidents in Star Citizen.
+A Flask-based tool for reporting and querying Star Citizen incidents with Discord integration.
 
-## Installation
-1. Clone the repository.
-2. Run the deployment script:
+## Features
+- Incident reporting with player names, locations, and categories.
+- Role-based access control using Discord authentication.
+- Query and summary reports.
+
+## Deployment Instructions
+1. Install the necessary system dependencies:
    ```bash
-   ./deploy_star_citizen_tool.sh
+   sudo apt update
+   sudo apt install python3 python3-pip python3-venv mysql-server nginx
