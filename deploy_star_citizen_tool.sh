@@ -21,7 +21,7 @@ EOF
 # Clone repository
 sudo mkdir -p $APP_DIR
 sudo chown $USER:$USER $APP_DIR
-git clone https://github.com/your-repo-url.git $APP_DIR
+git clone https://github.com/Cronos011/intel-tool.git $APP_DIR
 
 # Set up Python environment
 cd $APP_DIR
