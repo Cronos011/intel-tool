@@ -52,7 +52,7 @@ sudo systemctl enable $APP_NAME
 sudo tee /etc/nginx/sites-available/$APP_NAME > /dev/null <<EOF
 server {
     listen 80;
-    server_name yourdomain.com;
+    server_name gwrecon.com;
 
     location / {
         include proxy_params;
