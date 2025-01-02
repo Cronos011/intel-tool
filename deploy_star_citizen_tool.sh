@@ -5,7 +5,7 @@ APP_NAME="StarCitizenIntel"
 APP_DIR="/var/www/$APP_NAME"
 DB_NAME="StarCitizenIntel"
 DB_USER="flask_user"
-DB_PASSWORD="yourpassword"
+DB_PASSWORD="!3592Wolf"
 
 # Install dependencies
 sudo apt update && sudo apt install -y python3 python3-pip python3-venv mysql-server nginx
