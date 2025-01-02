@@ -28,7 +28,7 @@ EOF
 # Clone repository
 sudo mkdir -p $APP_DIR
 sudo chown $USER:$USER $APP_DIR
-git clone https://github.com/your-username/star_citizen_intel_tool.git $APP_DIR
+git clone https://github.com/Cronos011/intel-tool.git $APP_DIR
 
 # Set up Python environment
 cd $APP_DIR
@@ -59,7 +59,7 @@ sudo systemctl enable $APP_NAME
 sudo tee /etc/nginx/sites-available/$APP_NAME > /dev/null <<EOF
 server {
     listen 80;
-    server_name yourdomain.com;
+    server_name gwrecon.com;
 
     location / {
         include proxy_params;
